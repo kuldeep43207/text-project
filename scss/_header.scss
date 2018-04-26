@@ -1,0 +1,84 @@
+/******************* Header Start **********************/
+
+header{
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	right: 0;
+	background: rgba(0,0,0,0.5);
+	z-index:2222;
+}
+
+.logo{
+    display: table;
+    height:85px;
+	span{
+	    display: table-cell;
+	    vertical-align: middle;
+		a{
+		img {
+		    	max-height: 48px;
+		    }
+		}
+	}	    
+}
+
+.navigation-bar{
+	float:right;
+	ul{
+		margin: 0;
+		padding:0;
+		list-style: none;
+		display:inline-block;
+		li{
+			float:left;
+			height: 90px;
+			a{
+			    color: #fff;
+			    padding: 0 22px;
+			    display: block;
+			    line-height: 96px;
+			    &:hover{
+		    	    background: #3a9ac8;
+				    color: #fff;
+				    text-decoration: none;
+		    	}			
+		    }
+		} 
+	}
+}
+
+.clear{
+	clear:both;
+}
+
+.header-search-bar{
+	float: right;
+    height: 91px;
+    padding-top: 27px;
+    padding-left: 15px;
+	a{
+		font-size:26px;	
+	}
+}
+
+.header-search-open{
+	display: none;
+}
+
+/******************* Header End **********************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
